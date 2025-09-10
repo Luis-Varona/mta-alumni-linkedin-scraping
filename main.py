@@ -61,10 +61,10 @@ from selenium.webdriver.remote.webelement import WebElement
 
 
 # %%
-DEST = "mta_alumni.csv"
-TEMP_DIR = "temp"
-BATCH_SIZE = 5
-CURRENT_YEAR = datetime.now().year
+DEST: str = "mta_alumni.csv"
+TEMP_DIR: str = "temp"
+BATCH_SIZE: int = 5
+CURRENT_YEAR: int = datetime.now().year
 
 MIN_SHORT_WAIT: float = 0.1
 MAX_SHORT_WAIT: float = 0.4
