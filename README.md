@@ -1,5 +1,8 @@
 # MtA Alumni LinkedIn Scraping
 
+![License: MIT](https://img.shields.io/badge/License-MIT-pink.svg)
+[![Code Style: Ruff](https://img.shields.io/badge/code%20style-ruff-rebeccapurple.svg)](https://github.com/astral-sh/ruff)
+
 The `main.py` script dynamically scrapes LinkedIn for Mount Allison University (MtA) alumni data using Selenium. The schema for each alum (using Polars data types) is as follows:
 
 - full_name: String
